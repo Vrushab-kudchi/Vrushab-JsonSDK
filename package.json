@@ -1,0 +1,29 @@
+{
+  "name": "json-placeholder-node-sdk",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.m. js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "keywords": [
+    "jsonplaceholder",
+    "nodejs",
+    "sdk",
+    "demo api"
+  ],
+  "author": "Vrushab Kudchi",
+  "license": "ISC",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^4.0.2"
+  }
+}
